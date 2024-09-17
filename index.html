@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+        <div class="card shadow-lg p-5">
+            <h1 class="mb-4 text-center">Age Calculator</h1>
+            <form>
+                <div class="form-group mb-3">
+                    <label for="birthdate" class="form-label text-white">Enter Your Birthdate</label>
+                    <input type="date" id="birthdate" class="form-control modern-input" placeholder="YYYY-MM-DD" required>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" class="btn modern-btn" value="Calculate Age">
+                </div>
+            </form>
+            <div id="result" class="mt-4 text-center text-white">
+                <!-- Age result will be displayed here -->
+                <p class="result-text">Your age will appear here</p>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/index.js"></script>
+</body>
+</html>
